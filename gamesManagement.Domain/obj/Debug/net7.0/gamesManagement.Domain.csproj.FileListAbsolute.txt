@@ -1,0 +1,12 @@
+C:\Desenvolvimento\gamesManagement\gamesManagement.Domain\bin\Debug\net7.0\gamesManagement.Domain.deps.json
+C:\Desenvolvimento\gamesManagement\gamesManagement.Domain\bin\Debug\net7.0\gamesManagement.Domain.dll
+C:\Desenvolvimento\gamesManagement\gamesManagement.Domain\bin\Debug\net7.0\gamesManagement.Domain.pdb
+C:\Desenvolvimento\gamesManagement\gamesManagement.Domain\obj\Debug\net7.0\gamesManagement.Domain.csproj.AssemblyReference.cache
+C:\Desenvolvimento\gamesManagement\gamesManagement.Domain\obj\Debug\net7.0\gamesManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\gamesManagement\gamesManagement.Domain\obj\Debug\net7.0\gamesManagement.Domain.AssemblyInfoInputs.cache
+C:\Desenvolvimento\gamesManagement\gamesManagement.Domain\obj\Debug\net7.0\gamesManagement.Domain.AssemblyInfo.cs
+C:\Desenvolvimento\gamesManagement\gamesManagement.Domain\obj\Debug\net7.0\gamesManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\gamesManagement\gamesManagement.Domain\obj\Debug\net7.0\gamesManagement.Domain.dll
+C:\Desenvolvimento\gamesManagement\gamesManagement.Domain\obj\Debug\net7.0\refint\gamesManagement.Domain.dll
+C:\Desenvolvimento\gamesManagement\gamesManagement.Domain\obj\Debug\net7.0\gamesManagement.Domain.pdb
+C:\Desenvolvimento\gamesManagement\gamesManagement.Domain\obj\Debug\net7.0\ref\gamesManagement.Domain.dll

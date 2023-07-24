@@ -1,0 +1,17 @@
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\bin\Debug\net7.0\gamesManagement.Infrastructure.deps.json
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\bin\Debug\net7.0\gamesManagement.Infrastructure.dll
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\bin\Debug\net7.0\gamesManagement.Infrastructure.pdb
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\bin\Debug\net7.0\gamesManagement.Domain.dll
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\bin\Debug\net7.0\gamesManagement.Domain.pdb
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\obj\Debug\net7.0\gamesManagement.Infrastructure.csproj.AssemblyReference.cache
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\obj\Debug\net7.0\gamesManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\obj\Debug\net7.0\gamesManagement.Infrastructure.AssemblyInfoInputs.cache
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\obj\Debug\net7.0\gamesManagement.Infrastructure.AssemblyInfo.cs
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\obj\Debug\net7.0\gamesManagement.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\obj\Debug\net7.0\gamesManagement.Infrastructure.csproj.CopyComplete
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\obj\Debug\net7.0\gamesManagement.Infrastructure.dll
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\obj\Debug\net7.0\refint\gamesManagement.Infrastructure.dll
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\obj\Debug\net7.0\gamesManagement.Infrastructure.pdb
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\obj\Debug\net7.0\ref\gamesManagement.Infrastructure.dll
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\bin\Debug\net7.0\gamesManagement.Infrastructure.runtimeconfig.json
+C:\Desenvolvimento\gamesManagement\gamesManagement.Infrastructure\obj\Debug\net7.0\gamesManagement.Infrastructure.genruntimeconfig.cache

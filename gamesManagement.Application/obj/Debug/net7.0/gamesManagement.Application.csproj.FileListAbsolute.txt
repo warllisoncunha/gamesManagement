@@ -1,0 +1,17 @@
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\bin\Debug\net7.0\gamesManagement.Application.deps.json
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\bin\Debug\net7.0\gamesManagement.Application.dll
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\bin\Debug\net7.0\gamesManagement.Application.pdb
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\bin\Debug\net7.0\gamesManagement.Domain.dll
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\bin\Debug\net7.0\gamesManagement.Infrastructure.dll
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\bin\Debug\net7.0\gamesManagement.Domain.pdb
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\bin\Debug\net7.0\gamesManagement.Infrastructure.pdb
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\obj\Debug\net7.0\gamesManagement.Application.csproj.AssemblyReference.cache
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\obj\Debug\net7.0\gamesManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\obj\Debug\net7.0\gamesManagement.Application.AssemblyInfoInputs.cache
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\obj\Debug\net7.0\gamesManagement.Application.AssemblyInfo.cs
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\obj\Debug\net7.0\gamesManagement.Application.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\obj\Debug\net7.0\gamesManagement.Application.csproj.CopyComplete
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\obj\Debug\net7.0\gamesManagement.Application.dll
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\obj\Debug\net7.0\refint\gamesManagement.Application.dll
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\obj\Debug\net7.0\gamesManagement.Application.pdb
+C:\Desenvolvimento\gamesManagement\gamesManagement.Application\obj\Debug\net7.0\ref\gamesManagement.Application.dll
