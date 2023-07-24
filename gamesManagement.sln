@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gamesManagement.Infrastruct
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gamesManagement.Domain", "gamesManagement.Domain\gamesManagement.Domain.csproj", "{1881A48F-967E-4F43-BDEF-240E61EFE824}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gamesManagement.UnitTest", "gamesManagement.UnitTest\gamesManagement.UnitTest.csproj", "{64DE17DF-8D60-4D4A-A18F-0A7F583F97D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gamesManagement.UnitTest", "gamesManagement.UnitTest\gamesManagement.UnitTest.csproj", "{64DE17DF-8D60-4D4A-A18F-0A7F583F97D4}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A761B43A-D240-46A5-AE01-7C7BCDA49BCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{64DE17DF-8D60-4D4A-A18F-0A7F583F97D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64DE17DF-8D60-4D4A-A18F-0A7F583F97D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64DE17DF-8D60-4D4A-A18F-0A7F583F97D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A761B43A-D240-46A5-AE01-7C7BCDA49BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A761B43A-D240-46A5-AE01-7C7BCDA49BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A761B43A-D240-46A5-AE01-7C7BCDA49BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A761B43A-D240-46A5-AE01-7C7BCDA49BCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

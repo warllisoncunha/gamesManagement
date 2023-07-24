@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github",
+    "\\.github\\workflows"
   ],
-  "SelectedNode": "\\dotnet.yml",
+  "SelectedNode": "\\gamesManagement.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -32,7 +32,7 @@ namespace gamesManagement.Application.Services
 
                 return false;
             }
-            catch
+            catch(Exception e)
             {
                 return false;
                 throw;

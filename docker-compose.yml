@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+  gamesmanagement.api:
+    image: ${DOCKER_REGISTRY-}gamesmanagementapi
+    build:
+      context: .
+      dockerfile: gamesManagement.API/Dockerfile
+    depends_on:
+        - sqlserver
+    links:
+        - "sqlserver"
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    hostname: 'sqlserver'
+    environment:
+      ACCEPT_EULA: 'Y'
+      MSSQL_SA_PASSWORD: "1q2w3e4r@#$"
+      SA_PASSWORD: "1q2w3e4r@#$"
+      sa: "1q2w3e4r@#$"
+    volumes:
+      - c:\dados\volumes\mssql:/var/opt/mssql3
+    ports:
+      - '11433:1433'    
+    expose:
+      - 1433

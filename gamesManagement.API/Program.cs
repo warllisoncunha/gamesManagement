@@ -77,7 +77,7 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 
-builder.Services.AddDbContext<SqlServerContext>(options => options.UseSqlServer("Data Source=WARLLISON;Initial Catalog=gamesDb;Integrated Security=False;User ID=games;Password=123;Trust Server Certificate=True").EnableSensitiveDataLogging());
+builder.Services.AddDbContext<SqlServerContext>(options => options.UseSqlServer("Data Source=sqlserver;Initial Catalog=gamesDb;Integrated Security=False;User ID=sa;Password=1q2w3e4r@#$;Trust Server Certificate=True").EnableSensitiveDataLogging());
 
 var app = builder.Build();
 
