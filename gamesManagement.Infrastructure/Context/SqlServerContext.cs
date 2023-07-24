@@ -1,4 +1,5 @@
 ﻿using gamesManagement.Domain.Entities;
+using gamesManagement.Infrastructure.Mapping;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,6 @@ namespace gamesManagement.Infrastructure.Context
     {
         public SqlServerContext(DbContextOptions<SqlServerContext> options) : base(options)
         {
-            
         }
 
         public DbSet<Game> Game { get; set; }

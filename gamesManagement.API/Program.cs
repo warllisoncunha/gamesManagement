@@ -10,6 +10,9 @@ using Microsoft.OpenApi.Models;
 using static System.Net.Mime.MediaTypeNames;
 using System.Diagnostics.Metrics;
 using System.Reflection.Metadata;
+using Microsoft.Extensions.Hosting;
+using System;
+using Microsoft.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -75,6 +78,7 @@ builder.Services.AddSwaggerGen(c =>
                     }
                 });
 });
+
 
 
 builder.Services.AddDbContext<SqlServerContext>(options => options.UseSqlServer("Data Source=sqlserver;Initial Catalog=gamesDb;Integrated Security=False;User ID=sa;Password=1q2w3e4r@#$;Trust Server Certificate=True").EnableSensitiveDataLogging());

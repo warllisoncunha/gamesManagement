@@ -1,16 +1,6 @@
 version: '3.4'
 
 services:
-  gamesmanagement.api:
-    image: ${DOCKER_REGISTRY-}gamesmanagementapi
-    build:
-      context: .
-      dockerfile: gamesManagement.API/Dockerfile
-    depends_on:
-        - sqlserver
-    links:
-        - "sqlserver"
-
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
     hostname: 'sqlserver'
@@ -22,6 +12,28 @@ services:
     volumes:
       - c:\dados\volumes\mssql:/var/opt/mssql3
     ports:
-      - '11433:1433'    
-    expose:
-      - 1433
+      - '11433:1433'  
+    
+
+  gamesmanagement.api:
+    image: ${DOCKER_REGISTRY-}gamesmanagementapi
+    build:
+      context: .
+      dockerfile: gamesManagement.API/Dockerfile
+    depends_on:
+        - sqlserver
+    links:
+        - "sqlserver"    
+        
+  mssqltools:
+    image: mcr.microsoft.com/mssql-tools:latest
+    depends_on:
+      - sqlserver
+    links:
+      - "sqlserver"
+    volumes:
+      - ./01-create-database.sql:/tmp/01-create-database.sql
+      - ./02-create-tables.sql:/tmp/02-create-tables.sql
+      - ./03-insert-data.sql:/tmp/03-insert-data.sql
+      - ./init-dataBase.sh:/tmp/init-dataBase.sh
+    command: /bin/bash ./tmp/init-dataBase.sh
