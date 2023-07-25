@@ -28,5 +28,15 @@ usando a infra e segurança google;
     4. O projeto rodará em 'http://localhost:4200/login'
     5. entre com a credenciais: email: warllisonlima@gmail.com / senha: gamesEld
     6. Você será redirecionado para a tela home
+ 
+  - CASO NÃO CONSIGA IMPORTAR O ARQUIVO POSTMAN QUE ESTÁ NA RAIZ DO PROJETO:
+    1. Crie uma nova requisição POST com o postman e insira na url: 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyAtPcjbxwmbhKeNNbZnSTCa9MXZloMQKWE'
+    2. Insira no body este json:
+       {
+        "returnSecureToken": true,
+        "email": "warllisonlima@gmail.com",
+        "password": "gamesEld"
+       }
+    3. Faça o request, o token estará no response
 
   Coloco-me à disposição para responder eventuais dúvidas e esclarecimentos. 
