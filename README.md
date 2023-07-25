@@ -16,7 +16,7 @@ usando a infra e segurança google;
   4. Abra o seu PoweShell, ou Bash, ou CMD e navegue até a raiz do projeto;
   5. Execute o comando 'docker-compose up', após isso o compose será criado com os containes da API e SQL Server
   6. A porta que está sendo exposta para a api é a 443, então acesse 'https://localhost/swagger/index.html' no navegador para o swagger abrir.
-      PS.: Caso a porta não seja essa, rode o comando 'docker container list -a' e veja qual porta foi definida para a api, e insira no navegador: 'https://localhost:<porta>/swagger/index.html'
+      PS.: Caso a porta não seja essa, rode o comando 'docker container list -a' e veja qual porta foi definida para a api, e insira no navegador: 'https://localhost:[porta]/swagger/index.html'
   7. Para acessar os Endpoints pelo swagger, é necessário fazer a autenticação no firebase, com o postman que está na raiz do projeto, e inserir o token gerado no swagger como: 'bearer + token'
 
 - Um projeto de front-end foi criado na pasta 'gamesManagement.web', porém devido a falta de tempo não foi possível finalizá-lo, entretanto foi criado uma tela de login e um menu com opções.
