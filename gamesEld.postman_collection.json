@@ -1,0 +1,20 @@
+{
+	"info": {
+		"_postman_id": "bd970613-74d9-46e0-97f8-712fb0e55b97",
+		"name": "gamesEld",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "6513180"
+	},
+	"item": [
+		{
+			"name": "fireBase-auth",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "",
+				"description": "fdsa"
+			},
+			"response": []
+		}
+	]
+}
