@@ -14,6 +14,7 @@ using Microsoft.Extensions.Hosting;
 using System;
 using Microsoft.AspNetCore;
 
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -79,9 +80,19 @@ builder.Services.AddSwaggerGen(c =>
                 });
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(
+      policy =>
+      {
+          policy.AllowAnyOrigin()
+             .AllowAnyHeader()
+             .AllowAnyMethod();
+      });
+});
 
-
-builder.Services.AddDbContext<SqlServerContext>(options => options.UseSqlServer("Data Source=sqlserver;Initial Catalog=gamesDb;Integrated Security=False;User ID=sa;Password=1q2w3e4r@#$;Trust Server Certificate=True").EnableSensitiveDataLogging());
+//builder.Services.AddDbContext<SqlServerContext>(options => options.UseSqlServer("Data Source=sqlserver;Initial Catalog=gamesDb;Integrated Security=False;User ID=sa;Password=1q2w3e4r@#$;Trust Server Certificate=True").EnableSensitiveDataLogging());
+builder.Services.AddDbContext<SqlServerContext>(options => options.UseSqlServer("Data Source=WARLLISON;Initial Catalog=gamesDb;Integrated Security=False;User ID=games;Password=123;Trust Server Certificate=True").EnableSensitiveDataLogging());
 
 var app = builder.Build();
 
@@ -96,6 +107,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 app.UseAuthorization();
+app.UseCors();
 
 app.MapControllers();
 

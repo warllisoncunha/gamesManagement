@@ -4,6 +4,7 @@ using gamesManagement.Application.Services;
 using gamesManagement.Application.Services.Interfaces;
 using gamesManagement.Domain.Entities;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace gamesManagement.API.Controllers
@@ -38,7 +39,7 @@ namespace gamesManagement.API.Controllers
             return Ok(await _gameService.PostAsync(request));
         }
 
-        [HttpPost("Get")]
+        [HttpGet("Get")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Get()

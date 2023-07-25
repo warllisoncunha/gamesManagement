@@ -1,6 +1,7 @@
 ﻿using gamesManagement.Application.DTOs;
 using gamesManagement.Application.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace gamesManagement.API.Controllers
@@ -34,7 +35,7 @@ namespace gamesManagement.API.Controllers
             return Ok(await _friendService.PostAsync(request));
         }
 
-        [HttpPost("Get")]
+        [HttpGet("Get")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Get()

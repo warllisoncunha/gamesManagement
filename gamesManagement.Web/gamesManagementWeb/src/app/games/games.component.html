@@ -1,0 +1,32 @@
+<app-home></app-home>
+<h2>Games</h2>
+
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col col-lg-2">
+            <button type="button" class="btn btn-outline-primary">Create new game</button>
+        </div>
+    </div>
+</div>
+
+<div class="container center-block" style="padding:5%;">
+    <div class="table-responsive-sm">
+        <table class="table">
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+            <tr *ngFor="let data of gamesList; let i = index">
+                <td>{{data?.name}}</td>
+                <td>{{data?.description}}</td>
+                <td><label>{{data?.isActive}}</label></td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">edit</button>
+                    <button type="button" class="btn btn-outline-danger">delete</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

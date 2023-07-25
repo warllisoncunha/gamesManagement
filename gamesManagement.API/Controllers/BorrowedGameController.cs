@@ -3,6 +3,7 @@ using gamesManagement.Application.DTOs;
 using gamesManagement.Application.Services;
 using gamesManagement.Application.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace gamesManagement.API.Controllers
@@ -40,7 +41,7 @@ namespace gamesManagement.API.Controllers
             return Ok(await _barrowGameService.PostAsync(request));
         }
 
-        [HttpPost("Get")]
+        [HttpGet("Get")]
         public async Task<IActionResult> Get()
         {
             return Ok(await _barrowGameService.GetAsync());
